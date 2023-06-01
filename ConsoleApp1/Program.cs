@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using ConsoleApp1.Models;
+using ConsoleApp1.SpeedTests;
 
 Console.WriteLine("The GetHashCode Test");
 
@@ -47,6 +48,7 @@ int dt2now = now.GetHashCode();
 
 Console.WriteLine($"Datetime Comparison:{dt1now},{dt2now}\n");
 
+StringBuilderSpeedTest stringBuilderSpeedTest = new StringBuilderSpeedTest();
 
 
 Console.ReadLine();
