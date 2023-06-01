@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp1
+﻿namespace ConsoleApp1.Models
 {
 
     public class Order : OrderAdvancedClass
